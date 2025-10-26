@@ -4,7 +4,7 @@ import axios from "axios";
 const BASE_URL =
   import.meta.env.MODE === "development"
     ? "http://localhost:5001/api" // Local backend during dev
-    : "https://thinkboard-2-ac76.onrender.com/api"; // Deployed backend on Render
+    : "https://thinkboard-4-sggx.onrender.com"; // Deployed backend on Render
 
 // Create axios instance
 const api = axios.create({
